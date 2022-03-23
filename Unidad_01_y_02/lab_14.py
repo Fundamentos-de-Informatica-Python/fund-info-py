@@ -55,6 +55,7 @@ while contador < 5:
     contador += 1
     if contador == 2:
         print("El contador vale 2, se continúa al siguiente ciclo")
+        continue
     print('Fin del ciclo iterativo nro: ', contador)
 else:
     print('Fin de la iteración')
