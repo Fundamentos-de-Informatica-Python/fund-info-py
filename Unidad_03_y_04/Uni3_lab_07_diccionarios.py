@@ -1,4 +1,4 @@
-# UNIDAD 03.D25 - D28
+# UNIDAD 03.D25 - D27
 
 # Diccionarios
 
@@ -59,5 +59,4 @@ print('Diccionario ', diccio)
 diccio['sandia'] = 'watermelon'
 print('Diccionario', diccio)
 
-print('\n\n---[Diapo 26.b]---------------------')
-print('Agregar y eliminar elementos a los diccionarios')
+
