@@ -7,8 +7,8 @@ print('Errores Sintácticos:')
 
 
 print('Comienzo')
-articulo = "Pelota
-print("El artícuo es:", articulo)
+#  articulo = "Pelota
+#  print("El artícuo es:", articulo)
 
 
 
