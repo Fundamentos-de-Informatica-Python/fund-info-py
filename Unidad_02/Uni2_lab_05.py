@@ -1,6 +1,7 @@
-# UNIDAD 01.D23
+# UNIDAD 01.D25
 
 #Variables de Texto
+print('\n\n---[Diapo 25]--------------')
 
 nombre_y_apellido = "Jorge Perz"
 

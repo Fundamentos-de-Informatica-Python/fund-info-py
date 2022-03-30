@@ -1,7 +1,7 @@
-# Listas - Funciones Sobre Matrices [Diapo 34 - Diapo 33]
+# Listas - Funciones Sobre Matrices [Diapo 36]
 
-print('\n-----------------------------')
-print('Funciones Sobre Matrices [Diapo 34] \n')
+print('\n\n---[Diapo 36]--------------')
+print('Funciones Sobre Matrices \n')
 
 elem1 = [1, 2, 3]
 elem2 = [4, 5, 6]
@@ -11,8 +11,8 @@ list = [elem1, elem2, elem3]
 print('La lista o matriz es: ', list)
 
 
-print('\n-----------------------------')
-print('Funciones Sobre Matrices [Diapo 34] Acceder elementos \n')
+print('\n\n---[Diapo 36]--------------')
+print('Funciones Sobre Matrices - Acceder elementos \n')
 
 elem1 = [1, 2, 3]
 elem2 = [4, 5, 6]

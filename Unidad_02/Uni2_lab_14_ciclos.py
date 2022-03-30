@@ -1,8 +1,8 @@
-# Bifurcaciones - [Diapo 51]
+# Bifurcaciones - [Diapo 53]
 
 
-print('\n-----------------------------')
-print('Ciclos Iterativos [Diapo 51] - While \n')
+print('\n\n---[Diapo 53]--------------')
+print('Ciclos Iterativos - While \n')
 
 valor = 0
 while valor == 0:
@@ -10,8 +10,8 @@ while valor == 0:
     valor = 1
 
 
-print('\n-----------------------------')
-print('Ciclos Iterativos [Diapo 52] - While \n')
+print('\n\n---[Diapo 54]--------------')
+print('Ciclos Iterativos - While \n')
 
 contador = 0
 while contador < 5:
@@ -19,8 +19,8 @@ while contador < 5:
     contador += 1
 
 
-print('\n-----------------------------')
-print('Ciclos Iterativos [Diapo 52] - While - else \n')
+print('\n\n---[Diapo 54]--------------')
+print('Ciclos Iterativos - While - else \n')
 
 contador = 0
 while contador < 5:
@@ -31,8 +31,8 @@ else:
 
 
 
-print('\n-----------------------------')
-print('Ciclos Iterativos [Diapo 53] - While - else - break \n')
+print('\n\n---[Diapo 55]--------------')
+print('Ciclos Iterativos - While - else - break \n')
 
 contador = 0
 while contador < 5:
@@ -46,8 +46,8 @@ print('El contadpr vale: ', contador)
 
 
 
-print('\n-----------------------------')
-print('Ciclos Iterativos [Diapo 54] - While - else - continue \n')
+print('\n\n---[Diapo 56]--------------')
+print('Ciclos Iterativos - While - else - continue \n')
 
 contador = 0
 while contador < 5:

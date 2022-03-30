@@ -1,8 +1,8 @@
-# Bifurcaciones - [Diapo 55]
+# Bifurcaciones - [Diapo 57]
 
 
-print('\n-----------------------------')
-print('Ciclos Iterativos [Diapo 55] - For \n')
+print('\n\n---[Diapo 57]--------------')
+print('Ciclos Iterativos  - For \n')
 
 for cant in range(5):
     print('Ejecucion del ciclo ', cant)
@@ -11,8 +11,8 @@ print('Fin del PROGRAMA')
 
 
 
-print('\n-----------------------------')
-print('Ciclos Iterativos [Diapo 57] - For inicio - fin \n')
+print('\n\n---[Diapo 59]--------------')
+print('Ciclos Iterativos - For inicio - fin \n')
 
 for cant in range(5, 10):
     print('Ejecucion del ciclo ', cant)
@@ -20,8 +20,8 @@ print('Fin del PROGRAMA')
 
 
 
-print('\n-----------------------------')
-print('Ciclos Iterativos [Diapo 57] - For inicio - fin - step \n')
+print('\n\n---[Diapo 59]--------------')
+print('Ciclos Iterativos - For inicio - fin - step \n')
 
 for cant in range(4, 30, 3):
     print('Ejecucion del ciclo ', cant)
@@ -30,8 +30,8 @@ print('Fin del PROGRAMA')
 
 
 
-print('\n-----------------------------')
-print('Ciclos Iterativos [Diapo 58] - Usos Especiales \n')
+print('\n\n---[Diapo 60]--------------')
+print('Ciclos Iterativos - Usos Especiales \n')
 
 lista = ['Jorge', 'Luis', 'Romina', 'Lorena']
 for elements in lista:
@@ -39,8 +39,8 @@ for elements in lista:
 print('FIN DEL PROGRAMA')
 
 
-print('\n-----------------------------')
-print('Ciclos Iterativos [Diapo 58] - Usos Especiales \n')
+print('\n\n---[Diapo 60]--------------')
+print('Ciclos Iterativos - Usos Especiales \n')
 
 cadena = 'Bienvenidos al curso'
 for elements in cadena:
@@ -49,8 +49,8 @@ print('FIN DEL PROGRAMA')
 
 
 
-print('\n-----------------------------')
-print('Ciclos Iterativos [Diapo 59] - Usos Especiales \n')
+print('\n\n---[Diapo 61]--------------')
+print('Ciclos Iterativos - Usos Especiales \n')
 
 lista = ['Jorge', 'Luis', 'Romina', 'Lorena']
 for indice, elements in enumerate(lista):

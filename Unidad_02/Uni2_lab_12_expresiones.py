@@ -1,8 +1,8 @@
-# Expresiones Anidadas - [Diapo 42]
+# Expresiones Anidadas - [Diapo 44]
 
 
-print('\n-----------------------------')
-print('Exprsiones Anidadas [Diapo 42] \n')
+print('\n\n---[Diapo 44]--------------')
+print('Exprsiones Anidadas \n')
 
 print(10 * 5 - 2 ** 5 >= 20 and not (10 % 5) != 0)
 
