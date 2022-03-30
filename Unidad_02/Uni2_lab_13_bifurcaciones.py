@@ -1,8 +1,8 @@
-# Bifurcaciones - [Diapo 46]
+# Bifurcaciones - [Diapo 48]
 
 
-print('\n-----------------------------')
-print('Bifurcaciones [Diapo 46] \n')
+print('\n\n---[Diapo 48]--------------')
+print('Bifurcaciones \n')
 
 var = 5
 if var == 5:
@@ -11,8 +11,8 @@ print('FIN DEL PROGRAMA')
 
 
 
-print('\n-----------------------------')
-print('Bifurcaciones [Diapo 46] \n')
+print('\n\n---[Diapo 48]--------------')
+print('Bifurcaciones \n')
 
 var = 0
 if var == 5:
@@ -20,8 +20,8 @@ if var == 5:
 print('FIN DEL PROGRAMA')
 
 
-print('\n-----------------------------')
-print('Bifurcaciones [Diapo 47] \n')
+print('\n\n---[Diapo 49]--------------')
+print('Bifurcaciones \n')
 
 var = 5
 if var == 5:
@@ -31,8 +31,8 @@ if var == 5:
 print('FIN DEL PROGRAMA')
 
 
-print('\n-----------------------------')
-print('Bifurcaciones [Diapo 47] \n')
+print('\n\n---[Diapo 49]--------------')
+print('Bifurcaciones \n')
 
 var = 0
 if var == 5:
@@ -43,8 +43,8 @@ print('FIN DEL PROGRAMA')
 
 
 
-print('\n-----------------------------')
-print('Bifurcaciones [Diapo 48] \n')
+print('\n\n---[Diapo 50]--------------')
+print('Bifurcaciones  \n')
 
 var = 10
 if var > 5:
@@ -58,8 +58,8 @@ print('FIN DEL PROGRAMA')
 
 
 
-print('\n-----------------------------')
-print('Bifurcaciones [Diapo 49]  if - else \n')
+print('\n\n---[Diapo 51]--------------')
+print('Bifurcaciones  if - else \n')
 
 var = 10
 if var > 5:
@@ -73,8 +73,8 @@ print('FIN DEL PROGRAMA')
 
 
 
-print('\n-----------------------------')
-print('Bifurcaciones [Diapo 50]  if - else - elif \n')
+print('\n\n---[Diapo 52]--------------')
+print('Bifurcaciones  if - else - elif \n')
 
 var = 3
 if var > 5:

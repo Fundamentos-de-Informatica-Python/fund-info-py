@@ -1,5 +1,5 @@
 # Cálculos complejos (I)
-print('\n-----------------------------')
+print('\n\n---[Diapo 22.a]--------------')
 print('Cálculos complejos (I)\n')
 
 nota1 = 7
@@ -11,7 +11,7 @@ promedio = (nota1 + nota2 + nota3) / 3
 print('La nota promedio es', promedio)
 
 # Cálculos complejos (II)
-print('\n-----------------------------')
+print('\n\n---[Diapo 22.b]--------------')
 print('Cálculos complejos (II)\n')
 
 var1 = 7

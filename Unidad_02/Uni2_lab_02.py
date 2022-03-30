@@ -1,7 +1,10 @@
+# UNIDAD 02.D20 - D21
 #Practicando con variables
 
+
+
 # Practicando con variables (I)
-print('\n-----------------------------')
+print('\n\n---[Diapo 20]--------------')
 print('Practicando con variables (I)\n')
 
 
@@ -15,7 +18,7 @@ print('Voy a llevar', cantidad, 'producto de $', precio)
 
 
 # Practicando con variables (II)
-print('\n-----------------------------')
+print('\n\n---[Diapo 21]--------------')
 print('Practicando con variables (II)\n')
 var1 = 140
 var2 = 40

@@ -1,6 +1,6 @@
-# UNIDAD 01.D24
+# UNIDAD 01.D26
 
-print('\n-----------------------------')
+print('\n\n---[Diapo 26.a]--------------')
 print('Ejemplo con TAB y SALTOS DE LÍNEA \n')
 
 var1 = 'Aqui va una tabilación \t en el medio de la frase'
@@ -14,7 +14,7 @@ print(var2)
 Ejemplo con "\"
 '''
 
-print('\n-----------------------------')
+print('\n\n---[Diapo 26.b]--------------')
 print('Ejemplo con "\\" \n')
 
 archivo = 'c:\nueva carpeta\titulo.txt'
