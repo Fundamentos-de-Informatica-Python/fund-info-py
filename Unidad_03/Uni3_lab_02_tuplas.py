@@ -1,8 +1,8 @@
-# UNIDAD 03.D20
+# UNIDAD 03.D06
 
 # Tuplas
 
-print('\n\n---[Diapo 20]---------------------')
+print('\n\n---[Diapo 06]---------------------')
 
 frutas = ('manzana', 'mandarina', 'naranja')
 

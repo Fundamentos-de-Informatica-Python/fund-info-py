@@ -1,8 +1,8 @@
-# UNIDAD 03.D33 - D36
+# UNIDAD 03.D34 - D37
 
 # Excepciones con try / Catch
 
-print('\n\n---[Diapo 33.a]---------------------')
+print('\n\n---[Diapo 34.a]---------------------')
 print('Errores Semánticos:')
 
 numero = int(input('Ingrese un número:'))
@@ -12,7 +12,7 @@ print('Resultado: ', division)
 
 
 # Try / Except
-print('\n\n---[Diapo 33.b]---------------------')
+print('\n\n---[Diapo 34.b]---------------------')
 print('Excepciones:')
 
 try:
@@ -25,7 +25,7 @@ except:
 
 
 # Try / Except
-print('\n\n---[Diapo 34]---------------------')
+print('\n\n---[Diapo 35]---------------------')
 print('Se reintenta hasta que se ingresa ok:')
 
 while True:
@@ -42,7 +42,7 @@ print('Fin del Programa de división.')
 
 
 # Try / Except / Else
-print('\n\n---[Diapo 35.a]---------------------')
+print('\n\n---[Diapo 36.a]---------------------')
 print('Se reintenta hasta que se ingresa ok:')
 
 while True:
@@ -62,7 +62,7 @@ print('Fin del Programa de división.')
 
 
 # Try / Except / Else / Finally
-print('\n\n---[Diapo 35.b]---------------------')
+print('\n\n---[Diapo 36.b]---------------------')
 print('Se reintenta hasta que se ingresa ok:')
 
 while True:
@@ -86,7 +86,7 @@ print('Fin del Programa de división.')
 Excepciones Múltiples
 Ejemplo con ValueError y ZeroDivisionError
 '''
-print('\n\n---[Diapo 36]---------------------')
+print('\n\n---[Diapo 37]---------------------')
 print('Determinando el tipo de excepción:')
 
 while True:

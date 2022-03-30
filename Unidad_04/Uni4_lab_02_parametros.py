@@ -1,16 +1,16 @@
-# UNIDAD 03.D09 - D12
+# UNIDAD 03.D23 - D26
 
 # Tomando parámetros desde la terminal
 
 
-print('\n\n---[Diapo 10]--------------------------')
+print('\n\n---[Diapo 24]--------------------------')
 
 import sys
 
 print('Los argumentos son: ', sys.argv)
 
 
-print('\n\n---[Diapo 11]--------------------------')
+print('\n\n---[Diapo 25]--------------------------')
 
 import sys
 
