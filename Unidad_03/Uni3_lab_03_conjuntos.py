@@ -1,8 +1,8 @@
-# UNIDAD 03.D22 - D23
+# UNIDAD 03.D07 - D08
 
 # Set - Conjuntos
 
-print('\n\n---[Diapo 21]---------------------')
+print('\n\n---[Diapo 07]---------------------')
 print('Conjunto vacío:')
 
 frutas = set()
@@ -21,7 +21,7 @@ frutas.add('mandarina')
 print('Y ahora:', frutas)
 
 
-print('\n\n---[Diapo 22.a]---------------------')
+print('\n\n---[Diapo 07.a]---------------------')
 print('Agregamos elementos repetidos:')
 
 frutas = {'manzana', 'naranja', 'pera', 'pera', 'pera'}
@@ -34,7 +34,7 @@ frutas.add('pera')
 print('Y ahora:', frutas)
 
 
-print('\n\n---[Diapo 22.b]---------------------')
+print('\n\n---[Diapo 08.b]---------------------')
 print('Un Truco! Cómo eliminar elmentos duplicados en listas? ...')
 
 frutas = ['manzana', 'pera', 'naranja', 'pera', 'pera']
@@ -47,7 +47,7 @@ frutas = list(conjunto)
 print('Y ahora: ', frutas)
 
 
-print('\n\n---[Diapo 23.a]---------------------')
+print('\n\n---[Diapo 09.a]---------------------')
 print('Eliminar elementos de un conjunto:')
 
 frutas = {'manzana', 'naranja', 'pera'}
@@ -57,7 +57,7 @@ frutas.remove('naranja')
 print('Y ahora:', frutas)
 
 
-print('\n\n---[Diapo 23.b]---------------------')
+print('\n\n---[Diapo 09.b]---------------------')
 print('Pertenece a un conjunto')
 
 frutas = {'manzana', 'naranja', 'pera'}
