@@ -30,14 +30,14 @@ print(str(mi_galletita))
 
 
 
-print('\n\n---[Diapo 23]---------------------')
-print('POO - Imprimir En String')
+print('\n\n---[Diapo 24]---------------------')
+print('POO - Métodos Especiales - Len')
 
 
 class Galletita:
-    tamanio = 25
+    tamanio = 26
     def __len__(self):
-        return self.termino
+        return self.tamanio
 
 mi_galletita = Galletita()
 print('Tamaño de la gelletita: ', len(mi_galletita))
