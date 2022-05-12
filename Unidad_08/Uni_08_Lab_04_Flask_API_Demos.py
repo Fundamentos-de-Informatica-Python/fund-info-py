@@ -1,10 +1,9 @@
-# UNIDAD 08.D28
+# UNIDAD 08.D32 - 34
 
-# Flask - Creando nuestra primer API
+# Flask - API - CRUD
 
-
-print('\n\n---[Diapo 28]---------------------')
-print('Flask - Creando nuestra primer API')
+print('\n\n---[Diapo 32]---------------------')
+print('Flask - API - CRUD')
 
 from flask import Flask
 
