@@ -17,17 +17,22 @@ productos = [
     {'Nombre': 'paracetamol', 'stock': 450},
 ]
 
-
-@app.route('/')
+# D.32: [GET] Nuestra primera API
+@app.route('/saludo')
 def saludo():
-    return jsonify({'message', 'Hola!'})
+    return jsonify({'message': 'Hola!'})
+
+
+@app.route('/hello')
+def hello():
+    return jsonify(hello='world')
 
 
 #
 # D.35: [GET] Consultando información de todos los productos
 #
 @app.route('/productos', methods=['GET'])
-def productos():
+def productosGet():
     return jsonify({'productos':productos, 'status':'ok' })
 
 #
@@ -35,9 +40,9 @@ def productos():
 #
 @app.route('/productos/<producto>', methods=['GET'])
 def productoGet(producto):
-    for p in productos:
-        if p['nombre'] == producto:
-            return jsonify({'producto':producto[0], 'busqueda':producto, 'status':'ok'})
+    for indice, p in enumerate(productos):
+        if p['Nombre'] == producto:
+            return jsonify({'producto':productos[indice], 'busqueda':producto, 'status':'ok'})
     return jsonify({'productos':productos, 'status':'nof found' })
 
 
@@ -47,9 +52,10 @@ def productoGet(producto):
 @app.route('/productos', methods=['POST'])
 def productoPost():
     body = request.json
-    nombre = body['nombre']
+    nombre = body['Nombre']
     stock  = body['stock']
-    productoAlta = {'Nombre': nombre, 'stock': stock},
+    productoAlta = {'Nombre': nombre, 'stock': stock}
+    productos.append(productoAlta)
     return jsonify({'productos':productos, 'status':'ok' })
 
 #
@@ -58,16 +64,16 @@ def productoPost():
 #             - y actualiza el stock
 #
 @app.route('/productos', methods=['PUT'])
-def productoPut(producto):
+def productoPut():
     body = request.json
-    nombre = body['nombre']
+    nombre = body['Nombre']
     stock  = body['stock']
-    for p in productos:
-        if p['nombre'] == nombre:
-            p['stock'] = stock
-            return jsonify({'producto':p,
-                            'busqueda': producto,
-                            'status': 'ok'})
+    for indice, p in enumerate(productos):
+        if p['Nombre'] == nombre:
+           p['stock'] = stock
+           return jsonify({'producto': p,
+                           'busqueda': nombre,
+                           'status': 'ok'})
 
     return jsonify({'busqueda':productos,
                     'status':'not found' })
@@ -80,10 +86,7 @@ def productoPut(producto):
 @app.route('/productos/<producto>', methods=['DELETE'])
 def productoDelete(producto):
     for indice, p in enumerate(productos):
-        if p['nombre'] == producto:
-
-            # TODO: Eliminarlo de la base de datos
-            # productos[indice] = 0
+        if p['Nombre'] == producto:
             productos[indice:indice+1] = []
             return jsonify({'producto':p, 'busqueda':producto, 'status':'ok'})
     return jsonify({'productos':productos, 'status':'nof found' })
