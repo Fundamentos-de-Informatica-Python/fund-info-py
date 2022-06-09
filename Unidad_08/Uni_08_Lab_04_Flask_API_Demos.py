@@ -42,7 +42,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def saludo():
-    return jsonify({'message', 'Hola!'})
+    return jsonify({'message': 'Hola!'})
 
 
 if __name__ == '__main__':
