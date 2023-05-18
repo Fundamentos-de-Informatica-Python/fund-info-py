@@ -1,0 +1,10 @@
+ISBN,title,author,price,published,language,number_pages,press,ranking
+2348734,Python Crash Course,Eric Matthes,8400,2019,/api/academic-books/books,539,no starch press,4.8
+2348741,Clean Code,Robert Martin,4500,2009,EN,410,Pearson,4.5
+2348782,Head First Pattern Design,Eric Freeman,7300,2020,EN,819,O Reilly Media,4.9
+2348782,Clean Architecture,Robert Martin,4900,2017,EN,539,Pearson,4.3
+2348667,Sistemas Operativos,Tanenbaum,5200,2015,ES,713,Pearson Education,4.2
+2348921,Redes de Computadora,Jerry Votta,5600,2010,ES,682,Pearson Education,3.8
+2348532,The Eloquent Javascript,Marijn Haverbeke,6100,2011,EN,722,no starch press,4.7
+2348221,Sistemas de Informacion,Laudon Laudon,9530,2013,ES,722,O Reilly Media,4.7
+2343892,Effective Java,Joshua J. Bloch,7000,2017,EN,920,O Reilly Media,4.5
