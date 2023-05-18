@@ -28,6 +28,10 @@ def hello():
     return jsonify(hello='world')
 
 
+@app.route('/saludameporfavor')
+def saludame():
+    return jsonify({'message': 'Te estoy saludando de nuevo'})
+
 #
 # D.35: [GET] Consultando información de todos los productos
 #
@@ -95,5 +99,5 @@ def productoDelete(producto):
 
 
 if __name__ == '__main__':
-    app.run(debug=True, port=6000)
+    app.run(debug=True, port=5000)
 
