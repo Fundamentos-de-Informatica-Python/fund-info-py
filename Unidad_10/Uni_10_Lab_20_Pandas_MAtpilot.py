@@ -6,7 +6,7 @@ print('\n\n---[Diapo 28]---------------------')
 print('Realizando operaciones aritméticas entre DataFrames')
 
 import pandas as pd
-import matpilot.pylot as plt
+import matplotlip.pyplot as plt
 
 # barras
 df = pd.DataFrame()

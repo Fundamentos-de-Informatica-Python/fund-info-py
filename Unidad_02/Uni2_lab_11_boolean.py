@@ -35,7 +35,7 @@ print('var1 es igual a 1 y var2 es igual a 2 = ',  var1 == 1 and var2 == 2)
 
 
 print('\n-----------------------------')
-print('Operadores Lógicos [Diapo 39] OR \n')
+print('Operadores Lógicos [Diapo 41] OR \n')
 
 var1 = 5
 var2 = 10
@@ -47,7 +47,7 @@ print('var1 es igual a 1 ó var2 es igual a 2 = ',  var1 == 1 or var2 == 2)
 
 
 print('\n-----------------------------')
-print('Operadores Lógicos [Diapo 39] NOT \n')
+print('Operadores Lógicos [Diapo 42] NOT \n')
 
 var1 = 5
 
